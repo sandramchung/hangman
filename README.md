@@ -1,8 +1,8 @@
 # Hangman board
 
-This is a Hangman gameboard DOM, drawn entirely in CSS
+This is a Hangman gameboard, drawn entirely in CSS.
 
-Toggle the visiblity of body parts by ID:
+Toggle the visibility of body parts by ID:
 
 `#head`
 `#torso`
@@ -10,3 +10,4 @@ Toggle the visiblity of body parts by ID:
 `#right-arm`
 `#left-leg`
 `#right-leg`
+
