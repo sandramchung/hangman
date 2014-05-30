@@ -7,9 +7,9 @@
   box-sizing: border-box;
 }
 #board {
- width: 400px; /*Board must be square for body parts to align*/
- height: 400px;
- margin: 20px; 
+ width: 400px;
+ height: 500px;
+ margin: 20px;
  position: relative;
  left: 0px;
  top: 0px;
@@ -90,19 +90,19 @@
   position: absolute;
   width: 22.63%;
   height: 22.63%;
-  top: 64%;
-  left: 52%;
+  bottom: 36%;
+  right: 16%;
   -webkit-transform: rotate(-45deg);
-  -webkit-transform-origin: 0 0;
+  -webkit-transform-origin: 100% 100%;
 }
 #right-leg {
   position: absolute;
   width: 22.63%;
   height: 22.63%;
-  top: 48%;
-  left: 100%;
+  bottom: 36%;
+  left: 84%;
   -webkit-transform: rotate(45deg);
-  -webkit-transform-origin: 0 0;
+  -webkit-transform-origin: 0 100%;
 }
 
 .bottom-border{
