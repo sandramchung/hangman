@@ -1,0 +1,120 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+#board > div, #board > div > div {
+  box-sizing: border-box;
+}
+#board {
+ width: 400px; /*Board must be square for body parts to align*/
+ height: 400px;
+ margin: auto; 
+ position: relative;
+ left: 0px;
+ top: 0px;
+}
+#gallows-left {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+#gallows-right-1 {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  left: 25%;
+  top: 0;
+}
+#gallows-right-2 {
+  position: absolute;
+  width: 18%;
+  height: 100%;
+  left: 50%;
+  top: 0;
+}
+#hanger-left {
+  position: absolute;
+  width: 16%;
+  height: 16%;
+  left: 68%;
+  top: 0;
+}
+#head {
+  position: absolute;
+  width: 16%;
+  height: 16%;
+  border: 3px solid #000;
+  border-radius: 50%;
+  left: 76%;
+  top: 16%;
+}
+#body {
+  position: absolute;
+  width: 32%;
+  height: 32%;
+  left: 68%;
+  top: 32%;
+}
+#left-arm {
+  position: absolute;
+  width: 49.5%;
+  height: 100%;
+  left: 0;
+  top: 0; 
+}
+#torso {
+  position: absolute;
+  width: 1%;
+  height: 100%;
+  left: 49%;
+  top: 0;
+}
+#right-arm {
+  position: absolute;
+  width: 49.5%;
+  height: 100%;
+  left: 50%;
+  top: 0; 
+}
+.arm {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  left: 0;
+  top: 0;
+}
+#left-leg {
+  position: absolute;
+  width: 22.63%;
+  height: 22.63%;
+  top: 64%;
+  left: 52%;
+  -webkit-transform: rotate(-45deg);
+  -webkit-transform-origin: 0 0;
+}
+#right-leg {
+  position: absolute;
+  width: 22.63%;
+  height: 22.63%;
+  top: 48%;
+  left: 100%;
+  -webkit-transform: rotate(45deg);
+  -webkit-transform-origin: 0 0;
+}
+
+
+.bottom-border{
+  border-bottom: 3px solid #000;
+}
+.right-border {
+  border-right: 3px solid #000;
+}
+.top-border {
+  border-top: 3px solid #000;
+}
+.left-border {
+  border-left: 3px solid #000;
+}

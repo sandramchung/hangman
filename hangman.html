@@ -1,0 +1,54 @@
+<!doctype html>
+
+<head> 
+
+  <title>CSS Hangman</title>
+  <link rel='stylesheet' href='hangman.css'>
+  <meta author='Sandra Chung'>
+  <meta description='100% CSS hangman board'>
+
+</head>
+
+<body>
+
+<div id='board'>
+
+<!--   begin gallows -->
+
+  <div id='gallows-left' class='bottom-border'></div>
+
+  <div id='gallows-right-1' class='bottom-border left-border top-border'></div>
+
+  <div id='gallows-right-2' class='top-border'></div>
+
+  <div id='hanger-left' class='top-border right-border'></div>
+  
+<!-- toggle visibility of individual body parts by id-->    
+<!-- parts = head, torso, left-arm, right-arm, left-leg, right-leg -->
+
+  <div id='head'></div>
+
+  <div id='body'>
+
+    <div id='left-arm'>
+      <div class='arm bottom-border'></div>
+    </div>
+
+    <div id='torso' class='left-border'></div>
+      
+    <div id='right-arm'>
+      <div class='arm bottom-border'></div>
+    </div>
+
+  </div>
+
+  <div id='left-leg' class='bottom-border'></div>
+  
+  <div id='right-leg' class='bottom-border'></div>
+
+</div>
+
+
+</body>
+
+</html>
