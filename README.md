@@ -2,6 +2,8 @@
 
 This is a Hangman gameboard, drawn entirely in CSS.
 
+![hangman gameboard](hangman.png "Hangman gameboard")
+
 Toggle the visibility of body parts by ID:
 
 `#head`
