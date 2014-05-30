@@ -11,3 +11,7 @@ Toggle the visibility of body parts by ID:
 `#left-leg`
 `#right-leg`
 
+Adjust the gameboard size and placement in CSS > `#board`
+
+* Board must be square (e.g. 300px by 300px) for the body parts to align correctly
+

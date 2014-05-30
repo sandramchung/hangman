@@ -9,7 +9,7 @@
 #board {
  width: 400px; /*Board must be square for body parts to align*/
  height: 400px;
- margin: auto; 
+ margin: 20px; 
  position: relative;
  left: 0px;
  top: 0px;
@@ -46,7 +46,7 @@
   position: absolute;
   width: 16%;
   height: 16%;
-  border: 3px solid #000;
+  border: 3px solid #603311;
   border-radius: 50%;
   left: 76%;
   top: 16%;
@@ -105,16 +105,15 @@
   -webkit-transform-origin: 0 0;
 }
 
-
 .bottom-border{
-  border-bottom: 3px solid #000;
+  border-bottom: 3px solid #603311;
 }
 .right-border {
-  border-right: 3px solid #000;
+  border-right: 3px solid #603311;
 }
 .top-border {
-  border-top: 3px solid #000;
+  border-top: 3px solid #603311;
 }
 .left-border {
-  border-left: 3px solid #000;
+  border-left: 3px solid #603311;
 }
